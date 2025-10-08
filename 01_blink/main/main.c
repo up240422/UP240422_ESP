@@ -30,17 +30,19 @@ void sos(){
     }
 }
 
+
 void app_main(void) // Función principal del programa
 {
-
+    
     gpio_reset_pin(LED); // Reseteamos el pin del LED
-    gpio_set_direction(LED, GPIO_MODE_OUTPUT); // Configuramos el pin del LED como salida
+    gpio_set_direction(LED, GPIO_MODE_INPUT); // Configuramos el pin del LED como salida
 
     while (1) // Bucle infinito
     {
         sos();
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
+    
 }
 
 
