@@ -13,7 +13,7 @@ Thumbs.db
 
 # Archivos de logs
 *.log
-
+P
 #Archivos sdkconfig
 sdkconfig
 sdkaconfig.ci

@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "boton",
-    "project_version":    "73d004f-dirty",
+    "project_version":    "4938352-dirty",
     "project_path":       "C:/Users/reosw/UP240422_ESP/boton",
     "idf_path":           "C:/Users/reosw/esp/v5.4.2/esp-idf",
     "build_dir":          "C:/Users/reosw/UP240422_ESP/boton/build",
@@ -11,7 +11,7 @@
     "app_elf":            "boton.elf",
     "app_bin":            "boton.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v5.4.2",
+    "git_revision":       "v5.4.2-dirty",
     "target":             "esp32",
     "rev":                "0",
     "min_rev":            "0",
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/reosw/UP240422_ESP/boton/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/reosw/UP240422_ESP/boton/main/hello_world_main.c" ],
+            "sources": [ "C:/Users/reosw/UP240422_ESP/boton/main/button.c" ],
             "include_dirs": []
         },
         "mbedtls": {
